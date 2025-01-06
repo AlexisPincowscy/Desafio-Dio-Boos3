@@ -8,13 +8,13 @@ class Hero {
     }
     atacar(){
         if (this.tipo == "mago"){
-            console.log(`${this.tipo} atacou usando magia!`);
+            console.log(`O ${this.nome} que é um ${this.tipo} atacou usando magia!`);
         }else if (this.tipo == "guerreiro"){
-            console.log(`${this.tipo} atacou usando espada!`);
+            console.log(`O ${this.nome} que é um ${this.tipo} atacou usando espada!`);
         }else if (this.tipo == "monge"){
-            console.log(`${this.tipo} atacou usando artes marciais!`);
+            console.log(`O ${this.nome} que é um ${this.tipo} atacou usando artes marciais!`);
         }else if (this.tipo == "ninja"){
-            console.log(`${this.tipo} atacou usando shuriken!`);
+            console.log(`O ${this.nome} que é um ${this.tipo} atacou usando shuriken!`);
         }   
     }
 }
